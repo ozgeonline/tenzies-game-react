@@ -4,7 +4,7 @@ body{
   background: #0b2434;
   padding: 150px 20px;
   overflow: hidden;
-  
+  font-family: 'Karla', sans-serif;
 }
 main {
   background: #f5f5f5;
@@ -14,7 +14,7 @@ main {
   margin: auto auto;
   padding: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
 }
@@ -32,10 +32,33 @@ main {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  background-color: #fff;
-  color: #333;
+  transition: all .2s;
 }
 .die-num {
   font-size: 1.8em;
-  
+}
+.btn{
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 6px;
+  background-color: #3c2ab4;
+  color: white;
+  font-size: 1.2rem;
+  font-family: 'Karla', sans-serif;
+  cursor: pointer;
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+.btn:active {
+  box-shadow: inset -5px -5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+.title{
+  margin-top: 1rem;
+  font-size: 3rem;
+  color: #0b2434;
+}
+.instructions{
+  margin-top: -2rem;
+  font-style: italic;
+  color: #555;
 }
